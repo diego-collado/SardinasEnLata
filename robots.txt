@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://diego-collado.github.io/sardinasenlata/sitemap_index.xml
