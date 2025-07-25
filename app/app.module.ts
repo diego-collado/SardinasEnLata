@@ -2,6 +2,7 @@ import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 
 import {AppComponent} from './app.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 import {AppRoutingModule} from "./app-routing.module";
 import {ServiceWorkerModule} from "@angular/service-worker";
@@ -19,6 +20,7 @@ import {environment} from "../environments/environment";
 			registrationStrategy: 'registerImmediately'
 		})
 	],
-	bootstrap: [AppComponent]
+	bootstrap: [AppComponent],
+	providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
 })
 export class AppModule { }
