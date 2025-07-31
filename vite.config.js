@@ -6,9 +6,11 @@ import safeParser from 'postcss-safe-parser'
 import { fileURLToPath } from 'url';
 import { defineConfig } from 'vite'
 
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
+  base: '/sardinasenlata/', // importante para GitHub Pages
   plugins: [react(), tailwindcss()],
   server: {
     hmr: true

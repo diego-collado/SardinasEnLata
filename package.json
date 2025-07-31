@@ -1,5 +1,6 @@
 {
 	"name": "react-bits",
+	"homepage": "https://diego-collado.github.io/sardinasenlata/",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
@@ -23,7 +24,7 @@
 		"@react-three/postprocessing": "^3.0.4",
 		"@react-three/rapier": "^2.1.0",
 		"@tailwindcss/vite": "^4.0.3",
-		"framer-motion": "^12.6.0",
+		"framer-motion": "^12.23.12",
 		"gl-matrix": "^3.4.3",
 		"gsap": "^3.13.0",
 		"lenis": "^1.3.5",
